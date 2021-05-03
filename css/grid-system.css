@@ -1,0 +1,33 @@
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: min(auto, auto);
+    grid-template-areas: 
+      "sd main main main"
+      "sd ft ft ft";
+}
+
+.header-grid {
+    grid-area: hd;
+}
+
+.aside-grid {
+    grid-area: sd;
+}
+
+.main-grid {
+    grid-area: main;
+}
+
+.footer-grid {
+    grid-area: ft;
+}
+
+@media screen and (max-width: 600px) {
+    .container-grid {
+        grid-template-areas: 
+          "sd sd sd sd"
+          "main main main main"
+          "ft ft ft ft";
+    }
+}

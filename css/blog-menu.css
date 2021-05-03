@@ -1,0 +1,57 @@
+.aside-grid {
+    background-color: #ffdd00;
+    padding: 1rem;
+}
+
+.aside-grid * {
+    color: #393a3a;
+}
+
+.latest-blogposts-container h3 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+}
+
+.latest-blogposts-container {
+    font-weight: 300;
+    color: #393a3a;
+}
+
+.latest-blogposts-list {
+    list-style: none;
+    padding-left: 1.2rem;
+}
+
+.latest-blogposts-list li {
+    margin-bottom: 1.2rem;
+}
+
+.blog-header {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.blog-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.blog-header p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.social-media-container {
+    text-align: center;
+}
+
+.social-media-container a {
+    margin: 5px;
+}
+
+.social-media-logo {
+    width: 30px;
+}
